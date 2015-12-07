@@ -1,0 +1,14 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Could pinpoint within the 2 codes where lines of code were different
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+If you needed to undo changes or go back to a previous version, that former version is easily accessible.  Also, if you needed to just take an element from a previous version, but then jump back to the new or newer version, you would now have that ability.
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+The pro is that you have the control over what changes to save and what earmarks to make for yourself or other programmers to read in the future.  You are also better able to pinpoint the meaningful changes that were made.  The downside, or con, is that you may not save versions at the correct time.  However, automatic saving would save the changes at odd times which may not make much sense to you or someone else at a future point.
+Why do you thin some version control systems, like Git, allow saving multiple files in one commit, while others, like google Docs, treat each file separately?
+Saving multiple files at one in Git makes sense since the code running in multiple languages are utilized to make one webpage.  The changes made in one language or output could affect the code for the other language or have an effect on the end product.  Google Docs does not save multiple documents at once because most of the documents are only being used at one time separately.  
+How can you use the commands git log and git diff to view the history of files?
+Use git log to see all commits.  Press down key to continue reviewing them.  Q to quit out, then git diff to compare 2 commits
+How might using version control make you more confident to make changes that could break something?
+Version control could work against you if you have chosen a commit as the source of a bug or typo and if fixing it effects other code that you have open for the same webpage.  This could break what you have been working on.
+Now that you have your workspace set up, what do you want to try using Git for?
+I would use Git for collaborating on a project so that you can share commits and milestones in a project.  It can also be used for a project that one is doing on his/her own
